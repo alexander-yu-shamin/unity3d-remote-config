@@ -1,0 +1,22 @@
+# folder
+
+## Ignore base unity path
+/Logs/
+/Temp/
+/Packages/**/*
+!/Packages/manifest.json
+/Service References/
+/Assets/Plugins/
+/Library/
+
+## file vs studio
+/**/.vs/
+/**/obj/
+/**/.vscode/
+
+## file vs studio
+*.db
+*.csproj
+*.log
+*.sln
+
