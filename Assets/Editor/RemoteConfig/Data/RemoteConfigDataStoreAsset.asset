@@ -12,31 +12,39 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 469c24fdb3bd6431b92cc1465bd9166b, type: 3}
   m_Name: RemoteConfigDataStoreAsset
   m_EditorClassIdentifier: 
-  rsKeyList: []
-  rsLastCachedKeyList: []
-  configId: 
-  currentEnvironmentId: 0377300c-5eb3-4a1e-8cc6-8c460bd32dae
-  environments:
-  - id: 3628c066-9b7b-43e6-8c34-c19008d559b9
-    appId: 
-    name: Production (Default)
-    description: 
-    createdAt: 2021-03-30T07:53:31Z
-    updatedAt: 2021-03-30T07:53:31Z
-  - id: 0377300c-5eb3-4a1e-8cc6-8c460bd32dae
-    appId: 
-    name: Release
-    description: 
-    createdAt: 2021-03-30T09:08:55Z
-    updatedAt: 2021-03-30T09:08:55Z
-  - id: 55d8418c-762f-49a4-b25c-1f2c11dec66e
-    appId: 
-    name: Development
-    description: 
-    createdAt: 2021-03-30T09:08:55Z
-    updatedAt: 2021-03-30T09:08:55Z
-  rulesList: []
-  lastCachedRulesList: []
-  addedRulesIDs: []
-  updatedRulesIDs: []
-  deletedRulesIDs: []
+  _rsKeyList: "[\r\n  {\r\n    \"metadata\": {\r\n      \"entityId\": \"87d6580f-4e1b-408e-8408-a876abab5054\"\r\n   
+    },\r\n    \"rs\": {\r\n      \"key\": \"ui_string\",\r\n      \"type\": \"string\",\r\n     
+    \"value\": \"Production\"\r\n    }\r\n  }\r\n]"
+  _rsLastCachedKeyList: "[\r\n  {\r\n    \"metadata\": {\r\n      \"entityId\": \"87d6580f-4e1b-408e-8408-a876abab5054\"\r\n   
+    },\r\n    \"rs\": {\r\n      \"key\": \"ui_string\",\r\n      \"type\": \"string\",\r\n     
+    \"value\": \"Production\"\r\n    }\r\n  }\r\n]"
+  _environments: "[\r\n  {\r\n    \"projectId\": \"9cb75679-5fd9-4eb4-9efe-d894013dff69\",\r\n   
+    \"name\": \"Release\",\r\n    \"id\": \"b97611a2-765a-49ce-846c-c87d5c1dbd6c\",\r\n   
+    \"createdAt\": \"2021-03-30T13:56:29Z\",\r\n    \"updatedAt\": \"2021-03-30T13:56:29Z\",\r\n   
+    \"isDefault\": false\r\n  },\r\n  {\r\n    \"projectId\": \"9cb75679-5fd9-4eb4-9efe-d894013dff69\",\r\n   
+    \"name\": \"Development\",\r\n    \"id\": \"6983a7a5-e38b-499c-bef7-08b021527503\",\r\n   
+    \"createdAt\": \"2021-03-30T13:56:29Z\",\r\n    \"updatedAt\": \"2021-03-30T13:56:29Z\",\r\n   
+    \"isDefault\": false\r\n  },\r\n  {\r\n    \"projectId\": \"9cb75679-5fd9-4eb4-9efe-d894013dff69\",\r\n   
+    \"name\": \"Production\",\r\n    \"id\": \"3628c066-9b7b-43e6-8c34-c19008d559b9\",\r\n   
+    \"createdAt\": \"2021-03-30T07:53:31Z\",\r\n    \"updatedAt\": \"2021-03-30T07:53:31Z\",\r\n   
+    \"isDefault\": true\r\n  }\r\n]"
+  _rulesList: "[\r\n  {\r\n    \"id\": \"357c0c03-61cd-4d53-8639-980b1334a40b\",\r\n   
+    \"name\": \"New Rule\",\r\n    \"type\": \"segmentation\",\r\n    \"condition\":
+    \"\",\r\n    \"rolloutPercentage\": 100,\r\n    \"startDate\": \"\",\r\n    \"endDate\":
+    \"\",\r\n    \"priority\": 1000,\r\n    \"enabled\": true,\r\n    \"value\":
+    [\r\n      {\r\n        \"metadata\": {\r\n          \"entityId\": \"87d6580f-4e1b-408e-8408-a876abab5054\"\r\n       
+    },\r\n        \"rs\": {\r\n          \"key\": \"ui_string\",\r\n          \"type\":
+    \"string\",\r\n          \"value\": \"Production_rule\"\r\n        }\r\n     
+    }\r\n    ]\r\n  }\r\n]"
+  _lastCachedRulesList: "[\r\n  {\r\n    \"projectId\": \"9cb75679-5fd9-4eb4-9efe-d894013dff69\",\r\n   
+    \"environmentId\": \"3628c066-9b7b-43e6-8c34-c19008d559b9\",\r\n    \"configId\":
+    \"a4bd1463-1eed-4e47-8e81-dfcc3ba2d26b\",\r\n    \"name\": \"New Rule\",\r\n   
+    \"enabled\": true,\r\n    \"condition\": \"\",\r\n    \"rolloutPercentage\":
+    100,\r\n    \"value\": [\r\n      {\r\n        \"metadata\": {\r\n          \"entityId\":
+    \"87d6580f-4e1b-408e-8408-a876abab5054\"\r\n        },\r\n        \"rs\": {\r\n         
+    \"key\": \"ui_string\",\r\n          \"type\": \"string\",\r\n          \"value\":
+    \"Production_rule\"\r\n        }\r\n      }\r\n    ],\r\n    \"id\": \"357c0c03-61cd-4d53-8639-980b1334a40b\",\r\n   
+    \"priority\": 1000,\r\n    \"type\": \"segmentation\",\r\n    \"startDate\":
+    null,\r\n    \"endDate\": null,\r\n    \"metadata\": null,\r\n    \"audience\":
+    null,\r\n    \"kpi\": null,\r\n    \"createdAt\": \"2021-03-30T13:58:33Z\",\r\n   
+    \"updatedAt\": \"2021-03-30T13:58:39Z\"\r\n  }\r\n]"
